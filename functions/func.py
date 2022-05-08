@@ -1,10 +1,8 @@
 import requests
 import pandas as pd
-import numpy as np
-import hashlib
 import time
 import json
-from functions.utils import convertToBinaryData
+from functions.utils import convertToBinaryData, encriptLanguage
 
 
 def getLanguagesCountries():
@@ -13,15 +11,6 @@ def getLanguagesCountries():
         return requests.get('https://restcountries.com/v2/all?fields=region,name,languages').json()
     except Exception as e:
         return e
-
-
-def encriptLanguage(language):
-    # Encript the value of the parameter
-    try:
-        return hashlib.sha1(str(language).encode('utf-8')).hexdigest()
-    except Exception as e:
-        return e
-
 
 def createObjToTable(data):
     # Create an empty array
