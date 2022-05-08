@@ -10,7 +10,7 @@
 
 # seguido regresamos al ruta donde se encuentra el archivo principal con el comando cd ../..
 
-# instalamos los paquetes necesarios para ue nuestro interprete python pueda funcionar
+# instalamos los paquetes necesarios para que nuestro interprete python pueda funcionar
 
 # ejecutando el comando pip install -r requirements.txt
 
