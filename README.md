@@ -6,7 +6,7 @@
 
 # activar el virtual enviroment con el comando cd env/Scripts presionamos enter
 
-# y despues escribimos activate y presionamios enter para activar enviroment
+# y despues escribimos activate o ./activate y presionamios enter para activar enviroment
 
 # seguido regresamos al ruta donde se encuentra el archivo principal con el comando cd ../..
 
