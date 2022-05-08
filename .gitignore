@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+DATA/data.json
+DATA/dataToFrame.json
+DATA/dataToFrame.xlsx
+pruebatecnica.sqlite
